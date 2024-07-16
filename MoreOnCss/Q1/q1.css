@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  li > a {
+    color: red;
+  }
+  
+  nav > h2:nth-child(1) {
+    background-color: tan;
+    font-size: 50px;
+  }
+  
+  nav > p:nth-child(3) {
+    color: red;
+  }
+  
+  a[href^="#"] {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a[class="active"] {
+    color: blueviolet;
+    text-decoration: underline;
+  }
+  
+  a[target="_self"] {
+    background-color: aquamarine;
+  }
+  
+  p:last-child::after {
+    content: "...";
+  }
+  
+  li::marker {
+    color: rgb(250, 6, 181);
+  }
+  
+  nav > p:nth-child(4)::first-letter {
+    font-size: 33px;
+    color: red;
+  }
